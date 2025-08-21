@@ -13,6 +13,7 @@ services:
     image: prom/prometheus:latest
     container_name: prometheus
     command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
       - "--storage.tsdb.retention.time=3d"
       - "--storage.tsdb.path=/prometheus"
       - "--web.enable-lifecycle"
