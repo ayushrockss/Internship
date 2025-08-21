@@ -1,4 +1,3 @@
-sudo tee /opt/monitoring/prometheus/prometheus.yml > /dev/null <<'YAML'
 global:
   scrape_interval: 15s
 
