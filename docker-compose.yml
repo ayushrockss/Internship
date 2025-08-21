@@ -1,4 +1,3 @@
-sudo tee /opt/monitoring/docker-compose.yml > /dev/null <<'YAML'
 version: "3.9"
 
 networks:
