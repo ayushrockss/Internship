@@ -66,4 +66,3 @@ services:
     networks:
       - monitor-net
     restart: unless-stopped
-YAML
