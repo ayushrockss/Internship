@@ -7,7 +7,7 @@ metrics = PrometheusMetrics(app)
 
 @app.route("/")
 def home():
-    return "🚀 Hello from Cloud Counselage Internship Project!! hello world"
+    return "🚀 Hello from Cloud Counselage Internship Project!! "
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
